@@ -1,4 +1,5 @@
 .streamlit/
 key.json
+secrets.toml
 venv/
 __pycache__/

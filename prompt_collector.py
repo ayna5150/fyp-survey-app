@@ -438,6 +438,7 @@ TRANSLATIONS = {
         'consent_header': '📋 Research Information & Consent',
         'consent_text': '''
 Welcome to our research study! This questionnaire is part of an ongoing project to improve AI chatbots.
+Try to be as realistic as you can when answering the questions and click on "Submit All Responses" at the end to save your answers.
 
 **Your Privacy is Our Priority:**
 
@@ -492,7 +493,7 @@ By clicking "I Agree to Participate", you confirm that you understand the purpos
         'consent_header': '📋 معلومات البحث والموافقة',
         'consent_text': '''
 مرحباً بك في دراستنا البحثية! هذا الاستبيان جزء من مشروع لتطوير المحادثات مع الذكاء الاصطناعي
-
+.حاول أن تكون واقعيًا قدر الإمكان عند الإجابة على الأسئلة، ثم اضغط على "إرسال جميع الإجابات" عند الانتهاء لحفظ إجاباتك
 **:خصوصيتك أولويتنا**
 
 - جميع الإجابات مجهولة الهوية تماماً
