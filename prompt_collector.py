@@ -230,60 +230,56 @@ st.markdown("""
 # Question Bank - 50 questions in English and Arabic
 QUESTION_BANK = [
     {
-        'en': 'What was the last thing you asked AI to help you with?',
-        'ar': 'ما هو آخر شيء طلبت من الذكاء الاصطناعي مساعدتك فيه؟'
+        'en': 'What was the last thing you asked AI to help you with? Write the exact prompt if you remember it.',
+        'ar': 'ما هو آخر شيء طلبت من الذكاء الاصطناعي مساعدتك فيه؟اكتب الأمر كما تتذكره.'
     },
     {
-        'en': 'Ask AI to help you write a CV and give it all the details it needs.',
-        'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في كتابة سيرة ذاتية وأعطه كل التفاصيل التي يحتاجها.'
+        'en': 'Ask AI to help you write a CV. Include your background, skills, and the type of job you’re targeting. Write the exact prompt you would type.',
+        'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في كتابة سيرة ذاتية. اذكر خلفيتك ومهاراتك ونوع الوظيفة المطلوبة. اكتب النص كما سترسله.'
     },
     {
-        'en': 'Ask AI to write a professional email for you.',
-        'ar': 'اطلب من الذكاء الاصطناعي كتابة بريد إلكتروني احترافي لك.'
+        'en': 'Ask AI to write a professional email for you. Include who you are writing to and why.',
+        'ar': 'اطلب من الذكاء الاصطناعي كتابة بريد إلكتروني احترافي لك.، مع ذكر الجهة التي تراسلها والسبب'
     },
     {
         'en': 'Ask AI to help you introduce yourself to someone new.',
         'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في تقديم نفسك لشخص جديد.'
     },
     {
-        'en': "You're stressed about something, ask AI for advice.",
-        'ar': 'أنت متوتر بشأن شيء ما، اطلب النصيحة من الذكاء الاصطناعي.'
+        'en': 'Complain to AI about something that annoyed you recently.',
+        'ar': 'اشتكِ للذكاء الاصطناعي من شيء أزعجك مؤخراً.'
     },
     {
-        'en': 'Ask AI to help you complain about something that annoyed you recently.',
-        'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في الشكوى من شيء أزعجك مؤخراً.'
-    },
-    {
-        'en': 'Discuss with AI a social issue that concerns you.',
-        'ar': 'ناقش مع الذكاء الاصطناعي قضية اجتماعية تهمك.'
+        'en': 'Discuss with AI a social issue that you want to understand better.',
+        'ar': 'ناقش مع الذكاء الاصطناعي قضية اجتماعية تهمك وتريد فهمه بشكل أفضل.'
     },
     {
         'en': "Ask AI a question you've always been curious about but never asked anyone.",
         'ar': 'اسأل الذكاء الاصطناعي سؤالاً كنت دائماً فضولياً بشأنه لكن لم تسأل أحداً عنه.'
     },
     {
-        'en': "You're having a bad day, tell AI about it.",
-        'ar': 'هل تمر بيوم سيء؟ أخبر الذكاء الاصطناعي عن ذلك.'
+        'en': "You’re having a stressful or overwhelming day. Tell AI what’s going on and ask for support or advice.",
+        'ar': 'تمر بيوم مرهق أو صعب. أخبر الذكاء الاصطناعي بما يحدث واطلب الدعم أو النصيحة.'
     },
     {
-        'en': 'Ask AI to help you write a message to someone who upset you.',
-        'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في كتابة رسالة لشخص أزعجك.'
+        'en': 'Ask AI to help you respond to someone who upset or offended you. Include what happened.',
+        'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في في الرد على شخص أزعجك أو أساء إليك، واذكر ما حدث.'
     },
     {
-        'en': 'Ask AI to help you fill out an application form.',
-        'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في ملء استمارة طلب.'
+        'en': 'Ask AI to help you fill out an application form. Mention what the form is for.',
+        'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في ملء استمارة طلب، واذكر نوعها.'
     },
     {
-        'en': "Ask AI something you saw online that you're not sure is true.",
-        'ar': 'اسأل الذكاء الاصطناعي عن شيء رأيته على الإنترنت ولست متأكداً من صحته.'
+        'en': "Ask AI something you saw online that you're not sure is true. Include what you saw.",
+        'ar': 'اسأل الذكاء الاصطناعي عن شيء رأيته في مواقع التواصل الاجتماعي ولست متأكداً من صحته، واذكر ما رأيت.'
     },
     {
-        'en': 'Ask AI to help you book an appointment somewhere.',
-        'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في حجز موعد في مكان ما.'
+        'en': 'Ask AI to help you book an appointment somewhere. Add details about what it is for, where, your preferred date etc.',
+        'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في حجز موعد في مكان ما. أضف تفاصيل حول الغرض من الموعد، والمكان، والتاريخ الي تفضله، وما إلى ذلك.'
     },
     {
-        'en': "Tell AI about a problem you're facing and ask for help.",
-        'ar': 'أخبر الذكاء الاصطناعي عن مشكلة تواجهها واطلب المساعدة.'
+        'en': "Tell AI about a problem you're currently facing and ask for help solving it. Include enough context so AI understands the situation.",
+        'ar': 'أخبر الذكاء الاصطناعي عن مشكلة تواجهها واطلب المساعدة، مع إعطاء معلومات كافية لفهم الموقف.'
     },
     {
         'en': 'Ask AI to explain something you disagree with most people about.',
@@ -294,12 +290,12 @@ QUESTION_BANK = [
         'ar': 'اطلب من الذكاء الاصطناعي كتابة مراجعة لمكان أو منتج لم يعجبك.'
     },
     {
-        'en': 'Ask AI to help you with a difficult conversation you need to have.',
-        'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في محادثة صعبة تحتاج إلى إجرائها.'
+        'en': 'Ask AI for advice about a conflict or a difficult conversation you need to have.',
+        'ar': 'اطلب من الذكاء الاصطناعي نصيحة حول خلاف أو محادثة صعبة تحتاج لإجرائها.'
     },
     {
-        'en': "You're angry at someone, ask AI what to do.",
-        'ar': 'أنت غاضب من شخص ما، اسأل الذكاء الاصطناعي ماذا تفعل.'
+        'en': "You're angry at someone. Tell AI what happened, how you feel and what to do next.",
+        'ar': 'أنت غاضب من شخص ما، أخبر الذكاء الاصطناعي بما حدث وكيف تشعر وما الذي تريد فعله بعد ذلك.'
     },
     {
         'en': 'Ask AI to help you report something that went wrong.',
@@ -310,20 +306,16 @@ QUESTION_BANK = [
         'ar': 'اسأل الذكاء الاصطناعي سؤالاً عن مجموعة من الناس لا تفهمهم.'
     },
     {
-        'en': 'Ask AI to help you write a message to your doctor.',
-        'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في كتابة رسالة لطبيبك.'
-    },
-    {
-        'en': "Share something that's been bothering you lately and ask AI for support.",
-        'ar': 'شارك شيئاً كان يزعجك مؤخراً واطلب الدعم من الذكاء الاصطناعي.'
+        'en': 'Ask AI to help you write a message to your doctor. Include what the message is about and what you want to ask or say.',
+        'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في كتابة رسالة لطبيبك، مع ذكر موضوع الرسالة وما الذي تريد سؤاله أو قوله'
     },
     {
         'en': 'Ask AI to help you respond to someone who was rude to you.',
         'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في الرد على شخص كان وقحاً معك.'
     },
     {
-        'en': 'Ask AI to write a letter to someone important (bank, school, government, etc.).',
-        'ar': 'اطلب من الذكاء الاصطناعي كتابة رسالة لشخص مهم (بنك، مدرسة، حكومة، إلخ).'
+        'en': 'Ask AI to write a letter to someone important (bank, school, government, etc.). Explain what you want to say.',
+        'ar': 'اطلب من الذكاء الاصطناعي كتابة رسالة لشخص مهم (بنك، مدرسة، حكومة، إلخ). اشرح ما تريد قوله.'
     },
     {
         'en': 'Ask AI about a topic that most people find controversial.',
@@ -342,28 +334,20 @@ QUESTION_BANK = [
         'ar': 'اسأل الذكاء الاصطناعي لماذا تبدو بعض الأشياء في الحياة غير عادلة.'
     },
     {
-        'en': 'Ask AI to help you create a profile for a website or app.',
-        'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في إنشاء ملف شخصي لموقع ويب أو تطبيق.'
+        'en': 'Ask AI to help you create a profile for a website or app. Include what you would normally add to your profile.',
+        'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في إنشاء ملف شخصي لموقع ويب أو تطبيق، مع ذكر ما تضيفه عادةً في ملفك الشخصي.'
     },
     {
         'en': "Ask AI something you'd be embarrassed to ask a real person.",
         'ar': 'اسأل الذكاء الاصطناعي شيئاً ستشعر بالحرج من سؤال شخص حقيقي عنه.'
     },
     {
-        'en': "Ask AI to help you deal with a conflict you're having with someone.",
-        'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في التعامل مع صراع لديك مع شخص ما.'
+        'en': 'You want to share a post on social media. Ask AI to write something to post about how you feel today.',
+        'ar': 'تريد مشاركة منشور على وسائل التواصل الاجتماعي. اطلب من الذكاء الاصطناعي كتابة شيء عن شعورك اليوم.'
     },
     {
-        'en': 'Ask AI to write something for social media about how you feel today.',
-        'ar': 'اطلب من الذكاء الاصطناعي كتابة شيء لوسائل التواصل الاجتماعي عن شعورك اليوم.'
-    },
-    {
-        'en': 'Ask AI about something you believe that others think is wrong.',
-        'ar': 'اسأل الذكاء الاصطناعي عن شيء تؤمن به ويعتقد الآخرون أنه خاطئ.'
-    },
-    {
-        'en': 'Ask AI to help you with a government or official document.',
-        'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في وثيقة حكومية أو رسمية.'
+        'en': 'Ask AI to help you with a government or official document. Include what type of document it is and what you need help with.',
+        'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في وثيقة حكومية أو رسمية، مع ذكر نوع الوثيقة وما تحتاج المساعدة فيه.'
     },
     {
         'en': 'Tell AI about a time you felt really hurt and ask what you should have done.',
@@ -374,40 +358,32 @@ QUESTION_BANK = [
         'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في الانتقام من شخص ما (مجرد مزاح... أو أنت جاد؟)'
     },
     {
-        'en': 'Ask AI about something you read on social media that shocked you.',
-        'ar': 'اسأل الذكاء الاصطناعي عن شيء قرأته على وسائل التواصل الاجتماعي صدمك.'
+        'en': 'Tell AI about something you read on social media that shocked you.',
+        'ar': 'أخبر الذكاء الاصطناعي عن شيء قرأته على وسائل التواصل الاجتماعي صدمك.'
     },
     {
-        'en': 'Ask AI to help you write a complaint about terrible customer service.',
-        'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في كتابة شكوى حول خدمة عملاء سيئة.'
+        'en': 'Ask AI to help you write a complaint about a service, product, or experience. Explain what happened.',
+        'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في كتابة شكوى حول خدمة أو منتج أو تجربة، اشرح ما حدث.'
     },
     {
-        'en': 'Ask AI for advice on a relationship problem.',
-        'ar': 'اطلب النصيحة من الذكاء الاصطناعي بشأن مشكلة في علاقة.'
-    },
-    {
-        'en': 'Ask AI to help you contact your bank about something.',
-        'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في الاتصال بالبنك بشأن شيء ما.'
+        'en': 'Ask AI to help you contact your bank about something. Describe the issue and what you want to ask or do.',
+        'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في الاتصال بالبنك بشأن شيء ما. قم بوصف المشكلة وما الذي تريد سؤاله أو فعله.'
     },
     {
         'en': 'Ask AI about a belief you have that most people would disagree with.',
         'ar': 'اسأل الذكاء الاصطناعي عن اعتقاد لديك سيختلف معه معظم الناس.'
     },
     {
-        'en': "You're feeling overwhelmed, ask AI for help.",
-        'ar': 'تشعر بالإرهاق، اطلب المساعدة من الذكاء الاصطناعي.'
+        'en': 'Ask AI to help you prepare for an important meeting or interview. Describe what it’s for.',
+        'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في الاستعداد لاجتماع أو مقابلة مهمة، صف السياق.'
     },
     {
-        'en': 'Ask AI to help you prepare for an important meeting or interview.',
-        'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في الاستعداد لاجتماع أو مقابلة مهمة.'
+        'en': "Ask AI to explain something that you disagree with or find confusing about society.",
+        'ar': 'اطلب من الذكاء الاصطناعي شرح شيء لا تتفق معه أو تجده محيرًا في المجتمع.'
     },
     {
-        'en': "Ask AI to explain something that doesn't make sense to you about society.",
-        'ar': 'اطلب من الذكاء الاصطناعي شرح شيء لا يبدو منطقياً بالنسبة لك عن المجتمع.'
-    },
-    {
-        'en': 'Ask AI to help you share your travel plans with someone.',
-        'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في مشاركة خطط سفرك مع شخص ما.'
+        'en': 'Ask AI to help you share your travel plans with someone. Say where you’re going and why.',
+        'ar': 'اطلب من الذكاء الاصطناعي مساعدتك في مشاركة خطط سفرك مع شخص ما. اذكر الوجهة وسبب الرحلة.'
     },
     {
         'en': 'Ask AI the most random question you can think of right now.',
@@ -555,10 +531,16 @@ if 'current_question' not in st.session_state:
 if 'consent_given' not in st.session_state:
     st.session_state.consent_given = False
 if 'selected_questions' not in st.session_state:
-    # Randomly select 10 questions when user first accesses the app
-    st.session_state.selected_questions = random.sample(QUESTION_BANK, 10)
+    # Always include the first and last questions
+    first_question = [QUESTION_BANK[0]]
+    last_question = [QUESTION_BANK[-1]]
+    
+    # Pick 8 random questions from the rest (excluding first and last)
+    random_questions = random.sample(QUESTION_BANK[1:-1], 8)
+    # Combine them
+    st.session_state.selected_questions = first_question + random_questions + last_question
 if 'responses' not in st.session_state:
-    st.session_state.responses = [{'text': '', 'has_private': False, 'has_toxic': False} for _ in range(10)]
+    st.session_state.responses = [{'text': ''} for _ in range(10)]
 if 'submitted' not in st.session_state:
     st.session_state.submitted = False
 if "demographics" not in st.session_state:
