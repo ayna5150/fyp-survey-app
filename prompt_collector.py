@@ -523,7 +523,7 @@ By clicking "I Agree to Participate", you confirm that you understand the purpos
 
 # Initialize session state
 if 'language' not in st.session_state:
-    st.session_state.language = 'en'
+    st.session_state.language = 'ar'
 if 'step' not in st.session_state:
     st.session_state.step = 0
 if 'current_question' not in st.session_state:
