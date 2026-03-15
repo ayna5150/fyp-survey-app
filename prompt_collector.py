@@ -628,7 +628,9 @@ def save_response(data):
     """Save response to Firestore (anonymized)"""
     try:
         # Create anonymous ID based on timestamp
-        anonymous_id = hashlib.sha256(str(datetime.now()).encode()).hexdigest()[:16]
+        #anonymous_id = hashlib.sha256(str(datetime.now()).encode()).hexdigest()[:16]
+        # Create anonymous ID based on readable timestamp
+        anonymous_id = datetime.now().strftime("%Y%m%d_%H%M%S")
         
         response = {
             'id': anonymous_id,
