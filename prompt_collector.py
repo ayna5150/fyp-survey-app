@@ -632,7 +632,7 @@ def save_response(data):
         
         response = {
             'id': anonymous_id,
-            'timestamp': datetime.utcnow(),
+            'timestamp': datetime.now(),
             'language': st.session_state.language,
             "demographics": data.get("demographics", {}),
             "questions_and_responses": data.get("questions_and_responses", []),
